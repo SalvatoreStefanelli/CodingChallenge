@@ -1,0 +1,52 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.container{
+  width: 800px;
+  padding: 80px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header{
+  text-align: center;
+  color: lime;
+}
+
+header > img{
+  width: 150px;
+}
+
+nav{
+  text-align: center;
+  background-color: lime;
+  padding: 10px;
+}
+
+main{
+  color: white;
+}
+
+main h3{
+  display: inline-block;
+}
+
+div.caricaGino{
+  width: 270px;
+  height: 20px;
+  background-color: #ffbc40;
+}
+
+div.caricaMike{
+  width: 550px;
+  height: 20px;
+  background-color: limegreen;
+}
+
+div.caricaFede{
+  width: 130px;
+  height: 20px;
+  background-color: tomato;
+}
